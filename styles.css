@@ -126,3 +126,8 @@ body {
 .h1 {
     height: 1%;
 }
+
+.weathercontainer {
+    background-color: beige;
+    width: 20%;
+}
