@@ -17,6 +17,19 @@ body {
     height: 49vh;
 }
 
+.container8 {
+    display: flex;
+    grid-gap: 1px;
+    max-width: 100%;
+    width: 100%;
+    height: 25vh;
+}
+
+.sunset {
+    background-color: beige;
+    width: 30%;
+}
+
 .container3 {
     display: grid;
     grid-template-columns: repeat(3, 600px);
@@ -91,7 +104,7 @@ body {
     flex-wrap:nowrap ;
     align-items: center;
     justify-content: space-evenly;
-    object-fit: fill;
+    object-fit:contain
     gap: 0;
 }
 
@@ -123,16 +136,26 @@ body {
     
 }
 
+.openweathermap-widget-11 {
+    width: 70;
+    
+}
+
+.openweathermap-widget-11.container {
+    width: 70;
+}
+
+#openweathermap-widget-11 {
+    width: 70;
+    
+}
+
+#openweathermap-widget-11.container {
+    width: 70;
+}
+
+
 .h1 {
     height: 1%;
 }
 
-.weathercontainer {
-    background-color: beige;
-    width: 20%;
-}
-
-#weather {
-    background-color: beige;
-    width: 20%;
-}
