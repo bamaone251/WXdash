@@ -124,15 +124,21 @@ body {
 
 }
 
+.fx {
+    width: 100%;
+    height: 20vh;
+}
 .grid-item {
     display: block;
 }
 
 .forecast {
-    justify-content: right;
-    object-fit:cover;
-    align-items: center;
-    
+    display: flex;
+    gap: 10px;
+    max-width: 100%;
+    align-content: space-evenly;
+    overflow: hidden;
+    flex-grow: inherit;
     
 }
 
@@ -159,3 +165,6 @@ body {
     height: 1%;
 }
 
+#h2 {
+    display: flex;
+}
