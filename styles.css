@@ -28,6 +28,10 @@ body {
 .sunset {
     background-color: beige;
     width: 30%;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .container3 {
@@ -168,3 +172,19 @@ body {
 #h2 {
     display: flex;
 }
+
+#openweathermap-widget-21 {
+    width: 40%;
+    max-width: 100%;
+    display: flex;
+}
+
+.openweathermap-widget-21 {
+    width: 40%;
+    max-width: 100%;
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    
