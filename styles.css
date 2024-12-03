@@ -26,8 +26,8 @@ body {
 }
 
 .sunset {
-    background-color: beige;
-    width: 30%;
+    background-color:darkgrey;
+    width: 100%;
     justify-items: center;
     align-items: center;
     align-content: center;
